@@ -18,7 +18,7 @@
 ;;; NOTE: this package already exists in guix as orca-music
 ;;; I implemented this not knowing the above
 
-(define-module (mypackages packages myorca)
+(define-module (mypackages test myorca)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix gexp)
   #:use-module (guix utils)
