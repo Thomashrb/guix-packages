@@ -22,6 +22,8 @@
   #:use-module (guix download)
   #:use-module (gnu packages))
 
+;; to invoke sbt coreutils sed grep and openjdk@16 needed
+
 (define-public sbt
   (let ((baseurl "https://github.com/sbt/sbt")
         (v "1.7.2"))
